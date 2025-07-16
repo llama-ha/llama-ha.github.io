@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5{
 .cover{
   height:770px; 
   /* Imagen y se redimensiona al tamaño de la pantalla */
-  background-image:url(https://cdn.glitch.global/0ca6412d-4efb-42e0-be1d-bcdba60a67fc/portada-consola.webp?v=1750367338523);
+  background-image:url(home/portada-consola.webp);
   background-size: cover;
   background-position:center;
   /* Oscurecer imagen con fondo trasero */
