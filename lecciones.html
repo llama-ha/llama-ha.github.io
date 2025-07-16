@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<!-- Documento version HTML5 -->
+<html lang="es">
+  <!-- Idioma espanol -->
+
+  <head>
+    <!-- Metadatos pagina web -->
+    <title>Lecciones</title>
+    <link
+      rel="icon"
+      href="home/logo.ico"
+      type="image/png"
+    />
+    <meta charset="utf-8" />
+    <!-- conjunto de caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- con que version de explorador -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- reescala pagina -->
+
+    <!-- Fuente de texto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Libreria Bootstrap - Ayuda en estilo de la pagina -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- Lo que se verá en la página web -->
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ms-1">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="home/logo.png"
+            width="35"
+            height="35"
+            alt="Logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto-important">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="simulador.html">Simulador</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="lecciones.html"
+                >Lecciones</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="acerca_de.html">Acerca de</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Encabezado -->
+    <header>
+      <div
+        class="cover d-flex justify-content-end align-items-start flex-column ps-5 pb-2"
+        style="
+          background-image: url(lecciones/cabezote-libros.webp);
+          height: 250px;
+          background-color: rgba(0, 0, 0, 0.2);
+        "
+      >
+        <h2>Llama-ha</h2>
+        <p style="text-align: left; padding-right: 0; padding-left: 0">
+          <i>Lecciones</i>
+        </p>
+      </div>
+    </header>
+
+    <!-- Carrousel de tarjetas -->
+    <section>
+      <div class="container mt-5 mb-5">
+        <h4>¿Qué encontrarás acá?</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at
+          lectus at magna ultricies malesuada sed eget lacus. Sed in urna auctor
+          justo posuere sodales. Aenean faucibus bibendum ex, sit amet posuere
+          ante aliquam et. Nam faucibus neque eget est finibus, in auctor sapien
+          luctus. Phasellus in dictum urna, vitae vestibulum est. Interdum et
+          malesuada fames ac ante ipsum primis in faucibus. Morbi vitae ligula
+          odio. Suspendisse mattis commodo risus, non vestibulum metus pulvinar
+          ac. Integer ligula risus, facilisis quis tempus id, pharetra ac nisi.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mt-4 mb-4">
+        <h5>Corte 1</h5>
+        <div class="row">
+          <div class="col-12 mb-3">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="lecciones/leccion-1-1-onda-sonora.webp"
+                    class="img-fluid rounded-start"
+                    style="filter: brightness(0.9)"
+                    alt="Onda verde en fondo blanco"
+                  />
+                </div>
+                <div class="col-md-8 d-flex align-items-center">
+                  <div class="card-body">
+                    <h5 class="card-title" style="margin-bottom: 0.1rem">
+                      La onda sonora
+                    </h5>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Lección 1.1.</small>
+                    </p>
+                    <p class="card-text">
+                      ¿Que es el sonido? ¿Qué es una onda sonora y cuáles son
+                      sus elementos?
+                    </p>
+                    <p class="card-text text-end pe-3">
+                      <a
+                        href="https://www.youtube.com/@mikeacevedo"
+                        class="btn btn-primary"
+                        role="button"
+                        target="_blank"
+                      >
+                        Acceder 👀
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-3">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="lecciones/leccion-1-2-vumeter.webp"
+                    class="img-fluid rounded-start"
+                    style="filter: brightness(0.9)"
+                    alt="Onda verde en fondo blanco"
+                  />
+                </div>
+                <div class="col-md-8 d-flex align-items-center">
+                  <div class="card-body">
+                    <h5 class="card-title" style="margin-bottom: 0.1rem">
+                      Descriptores de una señal
+                    </h5>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Lección 1.2.</small>
+                    </p>
+                    <p class="card-text">
+                      El decibel, tipos de niveles de una señal y diferencia
+                      entre volumen y ganancia.
+                    </p>
+                    <p class="card-text text-end pe-3">
+                      <button type="button" class="btn btn-primary disabled">
+                        📅 | Semana 3
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-3">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="lecciones/leccion-1-3-knob.webp"
+                    class="img-fluid rounded-start"
+                    style="filter: brightness(1)"
+                    alt="Onda verde en fondo blanco"
+                  />
+                </div>
+                <div class="col-md-8 d-flex align-items-center">
+                  <div class="card-body">
+                    <h5 class="card-title" style="margin-bottom: 0.1rem">
+                      Controles de una señal
+                    </h5>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Lección 1.3.</small>
+                    </p>
+                    <p class="card-text">
+                      Filtros, Atenuadores y Phantom Power
+                    </p>
+                    <p class="card-text text-end pe-3">
+                      <button type="button" class="btn btn-primary disabled">
+                        📅 | Semana 4
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-5">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="lecciones/test-1.webp"
+                    class="img-fluid rounded-start"
+                    style="filter: brightness(1)"
+                    alt="Onda verde en fondo blanco"
+                  />
+                </div>
+                <div class="col-md-8 d-flex align-items-center">
+                  <div class="card-body">
+                    <h5 class="card-title" style="margin-bottom: 0.1rem">
+                      Evaluación integradora
+                    </h5>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Test 1</small>
+                    </p>
+                    <p class="card-text text-end pe-3">
+                      <button type="button" class="btn btn-primary disabled">
+                        📅 | Semana 5
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5>Corte 2</h5>
+          <div class="col-12 mb-3">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="lecciones/leccion-2-1-mixer.webp"
+                    class="img-fluid rounded-start"
+                    style="filter: brightness(0.7)"
+                    alt="Onda verde en fondo blanco"
+                  />
+                </div>
+                <div class="col-md-8 d-flex align-items-center">
+                  <div class="card-body">
+                    <h5 class="card-title" style="margin-bottom: 0.1rem">
+                      Las mesas de mezcla
+                    </h5>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Lección 2.1.</small>
+                    </p>
+                    <p class="card-text">
+                      Presentación e introducción a las consolas de audio y al
+                      flujo de señal.
+                    </p>
+                    <p class="card-text text-end pe-3">
+                      <button type="button" class="btn btn-primary disabled">
+                        📅 | Semana 6
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-3">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="lecciones/leccion-2-2-channel-strip.webp"
+                    class="img-fluid rounded-start"
+                    style="filter: brightness(0.8)"
+                    alt="Onda verde en fondo blanco"
+                  />
+                </div>
+                <div class="col-md-8 d-flex align-items-center">
+                  <div class="card-body">
+                    <h5 class="card-title" style="margin-bottom: 0.1rem">
+                      Channel Strip
+                    </h5>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Lección 2.2.</small>
+                    </p>
+                    <p class="card-text">
+                      Procesamiento individual de una señal de audio.
+                    </p>
+                    <p class="card-text text-end pe-3">
+                      <button type="button" class="btn btn-primary disabled">
+                        📅 | Semana 7
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-3">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="lecciones/leccion-2-3-fx.webp"
+                    class="img-fluid rounded-start"
+                    style="filter: brightness(0.9)"
+                    alt="Onda verde en fondo blanco"
+                  />
+                </div>
+                <div class="col-md-8 d-flex align-items-center">
+                  <div class="card-body">
+                    <h5 class="card-title" style="margin-bottom: 0.1rem">
+                      Señales alternas
+                    </h5>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Lección 2.3.</small>
+                    </p>
+                    <p class="card-text">Asignación de efectos y auxiliares</p>
+                    <p class="card-text text-end pe-3">
+                      <button type="button" class="btn btn-primary disabled">
+                        📅 | Semana 8
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-3">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="lecciones/leccion-2-4-concierto.webp"
+                    class="img-fluid rounded-start"
+                    style="filter: brightness(0.9)"
+                    alt="Onda verde en fondo blanco"
+                  />
+                </div>
+                <div class="col-md-8 d-flex align-items-center">
+                  <div class="card-body">
+                    <h5 class="card-title" style="margin-bottom: 0.1rem">
+                      Mezcla multicanal
+                    </h5>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Lección 2.4.</small>
+                    </p>
+                    <p class="card-text">
+                      Ejemplos de mezclas para diferentes señales (Multitracks).
+                    </p>
+                    <p class="card-text text-end pe-3">
+                      <button type="button" class="btn btn-primary disabled">
+                        📅 | Semana 9
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-5">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="lecciones/test-2.webp"
+                    class="img-fluid rounded-start"
+                    style="filter: brightness(1)"
+                    alt="Onda verde en fondo blanco"
+                  />
+                </div>
+                <div class="col-md-8 d-flex align-items-center">
+                  <div class="card-body">
+                    <h5 class="card-title" style="margin-bottom: 0.1rem">
+                      Evaluación integradora
+                    </h5>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Test 2</small>
+                    </p>
+                    <p class="card-text text-end pe-3">
+                      <button type="button" class="btn btn-primary disabled">
+                        📅 | Semana 10
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5>Bonus track 💿 | Programación de Aplicada al Audio 💾</h5>
+          <div class="col-12 mb-3">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="lecciones/paa-leccion-1-pc-server.webp"
+                    class="img-fluid rounded-start"
+                    style="filter: brightness(0.9)"
+                    alt="Onda verde en fondo blanco"
+                  />
+                </div>
+                <div class="col-md-8 d-flex align-items-center">
+                  <div class="card-body">
+                    <h5 class="card-title" style="margin-bottom: 0.1rem">
+                      El servidor de audio
+                    </h5>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Lección 3.1.</small>
+                    </p>
+                    <p class="card-text">Introducción a Pyo.</p>
+                    <p class="card-text text-end pe-3">
+                      <button type="button" class="btn btn-primary disabled">
+                        🔧 En proceso
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-3">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="lecciones/paa-leccion-2-signal-processing.webp"
+                    class="img-fluid rounded-start"
+                    style="filter: brightness(1)"
+                    alt="Onda verde en fondo blanco"
+                  />
+                </div>
+                <div class="col-md-8 d-flex align-items-center">
+                  <div class="card-body">
+                    <h5 class="card-title" style="margin-bottom: 0.1rem">
+                      Procesamiento de una señal
+                    </h5>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Lección 3.2.</small>
+                    </p>
+                    <p class="card-text">Diferentes procesos para una señal.</p>
+                    <p class="card-text text-end pe-3">
+                      <button type="button" class="btn btn-primary disabled">
+                        🔧 En proceso
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-3">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="lecciones/paa-leccion-3-flujo-senal.webp"
+                    class="img-fluid rounded-start"
+                    style="filter: brightness(1)"
+                    alt="Onda verde en fondo blanco"
+                  />
+                </div>
+                <div class="col-md-8 d-flex align-items-center">
+                  <div class="card-body">
+                    <h5 class="card-title" style="margin-bottom: 0.1rem">
+                      Flujo de señal
+                    </h5>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Lección 3.3.</small>
+                    </p>
+                    <p class="card-text">
+                      Procesamiento de señal en serie o cascada.
+                    </p>
+                    <p class="card-text text-end pe-3">
+                      <button type="button" class="btn btn-primary disabled">
+                        🔧 En proceso
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container text-center text-md-center">
+        <div class="row">
+          <!-- Columna 1: Información -->
+          <div class="col-md-4 mb-4">
+            <h5 class="text-uppercase fs-6">Acerca del proyecto</h5>
+            <small>
+              Desarrollamos una estrategia didáctica para enseñar fundamentos de
+              audio, fortaleciendo la comprensión y la práctica mediante
+              recursos pedagógicos y tecnológicos.
+            </small>
+          </div>
+
+          <!-- Columna 2: Enlaces -->
+          <div class="col-md-4 mb-3">
+            <h5 class="text-uppercase fs-6">Enlaces útiles</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="index.html" class="text-white text-decoration-none"
+                  ><small>Inicio</small></a
+                >
+              </li>
+              <li>
+                <a href="simulador.html" class="text-white text-decoration-none"
+                  ><small>Simulador</small></a
+                >
+              </li>
+              <li>
+                <a
+                  href="acerca_de.html "
+                  class="text-white text-decoration-none"
+                  ><small>Acerca de</small></a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Columna 3: Contacto -->
+          <div class="col-md-4">
+            <h5 class="text-uppercase fs-6">Contáctanos</h5>
+            <ul class="list-unstyled">
+              <li>
+                <small>lherrera@usbbog.edu.co</small>
+              </li>
+              <li>
+                <small>mjacevedoc@academia.usbbog.edu.co</small>
+              </li>
+              <li>
+                <small>jdprietop@academia.usbbog.edu.co</small>
+              </li>
+              <li>
+                <small>jfordonezc@academia.usbbog.edu.co</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="bg-white" />
+
+        <div class="text-center">
+          <small>&copy; Llama-ha 2025 | Todos los derechos reservados</small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5: JS y Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<!-- Documento version HTML5 -->
+<html lang="es">
+  <!-- Idioma espanol -->
+
+  <head>
+    <!-- Metadatos pagina web -->
+    <title>Acerca de</title>
+    <link
+      rel="icon"
+      href="home/logo.ico"
+      type="image/png"
+    />
+    <meta charset="utf-8" />
+    <!-- conjunto de caracteres -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- con que version de explorador -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- reescala pagina -->
+
+    <!-- Fuente de texto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Libreria Bootstrap - Ayuda en estilo de la pagina -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- Lo que se verá en la página web -->
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ms-1">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="home/logo.png"
+            width="35"
+            height="35"
+            alt="Logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto-important">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="simulador.html">Simulador</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="lecciones.html">Lecciones</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="acerca_de.html"
+                >Acerca de</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Encabezado -->
+    <header>
+      <div
+        class="cover d-flex justify-content-end align-items-start flex-column ps-5 pb-2"
+        style="
+          background-image: url(acerca-de/cabezote-foto-grupal.webp);
+          height: 250px;
+        "
+      >
+        <h2>Llama-ha</h2>
+        <p style="text-align: left; padding-right: 0; padding-left: 0">
+          <i>Acerca de Nosotros</i>
+        </p>
+      </div>
+    </header>
+
+    <section>
+      <div class="container mt-5 mb-5">
+        <h2>¿Quiénes somos?</h2>
+        <p>
+        Somos un grupo de estudiantes de último año de Ingeniería de Sonido e Ingeniería de Sistemas de la Universidad de San Buenaventura. Iniciamos nuestra carrera en el periodo 2020-1, justo cuando el mundo se enfrentaba al confinamiento por la pandemia del COVID-19. Estudiar en ese contexto fue una experiencia única que, aunque enriquecedora en muchos aspectos, limitó nuestras oportunidades de aprendizaje práctico. A partir de esta vivencia, y con el deseo de brindar herramientas que no dependan exclusivamente de la presencialidad o de un espacio físico, decidimos desarrollar como proyecto de grado una herramienta interactiva que simula el flujo de señal de una consola de audio.
+        </p>
+        <p>
+        Pero no se trata solo de una simulación más, pues de esas ya hay varias, sino de toda una estrategia didáctica pensada para acompañarte desde los conceptos básicos del audio hasta su aplicación en consolas reales. Nuestro objetivo es ofrecerte un recurso que complemente tu proceso de aprendizaje, sin importar el lugar ni el momento en que te encuentres. A continuación, queremos presentarnos para que conozcas quiénes estamos detrás de este proyecto:
+        </p>
+      </div>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-3 mt-2">
+            <div class="card p-4 text-center">
+              <div
+                class="avatar rounded-circle"
+                style="
+                  background-image: url(acerca-de/avatar-mj.webp);
+                "
+              ></div>
+              <h5 class="mt-2">M.J. Acevedo</h5>
+              <span class="badge text-bg-secondary">Est. Ing. Sonido</span>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 mt-2">
+            <div class="card p-4 text-center">
+              <div
+                class="avatar rounded-circle"
+                style="
+                  background-image: url(acerca-de/avatar-jd.webp);
+                "
+              ></div>
+              <h5 class="mt-2">J.D. Prieto</h5>
+              <span class="badge text-bg-secondary"
+                >Est. Ing. Sonido y Sistemas</span
+              >
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 mt-2">
+            <div class="card p-4 text-center">
+              <div
+                class="avatar rounded-circle"
+                style="
+                  background-image: url(acerca-de/avatar-jf.webp);
+                "
+              ></div>
+              <h5 class="mt-2">J.F. Ordóñez</h5>
+              <span class="badge text-bg-secondary"
+                >Est. Ing. Sonido y Sistemas</span
+              >
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3 mt-2 mb-2">
+            <div class="card p-4 text-center">
+              <div
+                class="avatar rounded-circle"
+                style="
+                  background-image: url(acerca-de/avatar-lj.webp);
+                "
+              ></div>
+              <h5 class="mt-2">L.J. Herrera</h5>
+              <span class="badge text-bg-primary"
+                >Tutor y docente de Ing. Sonido</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Carrousel de imagenes-->
+    <section>
+      <div class="container mt-5 mb-5">
+        <h4>Conoce un poco mas sobre el proceso del trabajo</h4>
+        <div class="product-stripe">
+          <div class="slider-container">
+            <div
+              class="image-container"
+              style="
+                background-image: url(acerca-de/conoce-nuestro-trabajo-1.webp);
+              "
+              title="Bosquejo del Marco Teórico escrito en un tablero"
+            >
+              <div class="image-text">
+                <p>Modelado del Marco Teórico para el Anteproyecto</p>
+              </div>
+            </div>
+            <div
+              class="image-container"
+              style="
+                background-image: url(acerca-de/conoce-nuestro-trabajo-2.webp);
+              "
+              title="Presentación en Canva"
+            >
+              <div class="image-text">
+                <p>Realización de la presentación de Anteproyecto</p>
+              </div>
+            </div>
+            <div
+              class="image-container"
+              style="
+                background-image: url(acerca-de/conoce-nuestro-trabajo-3.webp);
+              "
+              title="Foto de los 3 integrantes del proyecto antes de la sustentación"
+            >
+              <div class="image-text">
+                <p>Foto previa a la sustentación final de Anteproyecto</p>
+              </div>
+            </div>
+            <div
+              class="image-container"
+              style="
+                background-image: url(acerca-de/conoce-nuestro-trabajo-4.webp);
+              "
+              title="Vista del modelo del Simulador"
+            >
+              <div class="image-text"><p>Prototipado del simulador</p></div>
+            </div>
+            <div
+              class="image-container"
+              style="
+                background-image: url(acerca-de/conoce-nuestro-trabajo-5.webp);
+              "
+              title="Código HTML de la pagina web en Glitch"
+            >
+              <div class="image-text">
+                <p>Construcción de la Página Web</p>
+              </div>
+            </div>
+            <div
+              class="image-container"
+              style="
+                background-image: url(acerca-de/conoce-nuestro-trabajo-1.webp);
+              "
+              title="Bosquejo del Marco Teórico escrito en un tablero"
+            >
+              <div class="image-text">
+                <p>Modelado del Marco Teórico para el Anteproyecto</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-5 d-flex align-items-center">
+            <label for="opinion"
+              ><h5>Déjanos acá tu opinión</h5>
+              <p>
+                Nos interesa saber qué opinas sobre el proceso de aprendizaje
+                que viviste con nosotros. ¿Fue útil? ¿Haz aprendido? ¿Consideras
+                apropiada esta estrategia didáctica como apoyo a las clases?
+                ¿Has sentido que has podido explorar los temas con mayor
+                libertad y construir tus propios conocimientos a partir de la
+                experiencia de aprendizaje? ¿Hubo algo que te gustó
+                especialmente o algo que podríamos mejorar? Tu retroalimentación
+                es clave para seguir creciendo y ofreciendo experiencias de
+                calidad.
+              </p>
+            </label>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-7 d-flex align-items-center">
+            <img
+              src="acerca-de/doodle-form.svg"
+              alt="Ilustracion de una persona sentada al borde de una pantalla de PC"
+            />
+          </div>
+        </div>
+
+        <br />
+        <form
+          action="https://formsubmit.co/tesiselba.lazo@gmail.com"
+          method="POST"
+        >
+          <div class="d-flex">
+            <div class="form-group flex-fill me-2">
+              <input
+                type="text"
+                name="user-opinion"
+                id="opinion"
+                class="form-control"
+                placeholder="Escribe tu opinión aquí"
+              />
+              <input
+                type="hidden"
+                name="_next"
+                value="index.html"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white pt-5 pb-3">
+      <div class="container text-center text-md-center">
+        <div class="row">
+          <!-- Columna 1: Información -->
+          <div class="col-md-4 mb-4">
+            <h5 class="text-uppercase fs-6">Acerca del proyecto</h5>
+            <small>
+              Desarrollamos una estrategia didáctica para enseñar fundamentos de
+              audio, fortaleciendo la comprensión y la práctica mediante
+              recursos pedagógicos y tecnológicos.
+            </small>
+          </div>
+
+          <!-- Columna 2: Enlaces -->
+          <div class="col-md-4 mb-3">
+            <h5 class="text-uppercase fs-6">Enlaces útiles</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="index.html " class="text-white text-decoration-none"
+                  ><small>Inicio</small></a
+                >
+              </li>
+              <li>
+                <a href="simulador.html" class="text-white text-decoration-none"
+                  ><small>Simulador</small></a
+                >
+              </li>
+              <li>
+                <a href="lecciones.html" class="text-white text-decoration-none"
+                  ><small>Lecciones</small></a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Columna 3: Contacto -->
+          <div class="col-md-4">
+            <h5 class="text-uppercase fs-6">Contáctanos</h5>
+            <ul class="list-unstyled">
+              <li>
+                <small>lherrera@usbbog.edu.co</small>
+              </li>
+              <li>
+                <small>mjacevedoc@academia.usbbog.edu.co</small>
+              </li>
+              <li>
+                <small>jdprietop@academia.usbbog.edu.co</small>
+              </li>
+              <li>
+                <small>jfordonezc@academia.usbbog.edu.co</small>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="bg-white" />
+
+        <div class="text-center">
+          <small>&copy; Llama-ha 2025 | Todos los derechos reservados</small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5: JS y Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
