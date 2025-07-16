@@ -111,38 +111,36 @@
           id="imagen-principal-simulador"
         />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at
-          lectus at magna ultricies malesuada sed eget lacus. Sed in urna auctor
-          justo posuere sodales. Aenean faucibus bibendum ex, sit amet posuere
-          ante aliquam et. Nam faucibus neque eget est finibus, in auctor sapien
-          luctus. Phasellus in dictum urna, vitae vestibulum est. Interdum et
-          malesuada fames ac ante ipsum primis in faucibus. Morbi vitae ligula
-          odio. Suspendisse mattis commodo risus, non vestibulum metus pulvinar
-          ac. Integer ligula risus, facilisis quis tempus id, pharetra ac nisi.
+        Con el objetivo de desarrollar una herramienta educativa accesible que facilite el aprendizaje práctico del manejo de una consola análoga, sin depender exclusivamente de un espacio físico o de la disponibilidad del equipo, decidimos diseñar una simulación basada en las funciones esenciales de tres consolas que se encuentran en la universidad: Yamaha MG32/14FX, Yamaha MG10XU y Toft Audio ATB24. Nos enfocamos principalmente en la sección channel strip, simulando elementos clave como:
+        </p>
+        <ul style="color: white; text-indent: 2em;">
+          <li><p style="color: black; margin-bottom: 4px;">• Ganancia</p></li>
+          <li><p style="color: black; margin-bottom: 4px;">• Pad o Dim</p></li>
+          <li><p style="color: black; margin-bottom: 4px;">• Filtro pasa-altos</p></li>
+          <li><p style="color: black; margin-bottom: 4px;">• Ecualización de 3 bandas</p></li>
+          <li><p style="color: black; margin-bottom: 4px;">• Envíos auxiliares y efectos</p></li>
+          <li><p style="color: black; margin-bottom: 4px;">• Paneo</p></li>
+          <li><p style="color: black; margin-bottom: 4px;">• Encendido del canal</p></li>
+          <li><p style="color: black; margin-bottom: 4px;">• Fader de salida del canal</p></li>
+          <li><p style="color: black;">• Asignación a subgrupos de salida</p></li>
+        </ul>
+        <p style="margin-bottom: 4px;">
+        Además, se incluyeron controles para:
+        </p>
+        <ul style="color: white; text-indent: 2em;">
+          <li><p style="color: black; margin-bottom: 4px;">• Faders de subgrupos y master</p></li>
+          <li><p style="color: black; margin-bottom: 4px;">• Envíos auxiliares y efectos globales <i>(Delay, Reverb y Chorus)</i>.</p></li>
+        </ul>
+        <p>
+        Dado que esta herramienta tiene un propósito formativo, también integramos simulaciones de conciertos de distintos artistas, lo que permite practicar mezclas multicanal en contextos realistas y aplicados.
         </p>
         <p>
-          Etiam id justo sed metus vulputate cursus. Nam nec dui elit. Fusce
-          tincidunt diam velit, ut consequat urna finibus dapibus. Pellentesque
-          ac efficitur nibh. Sed ullamcorper efficitur risus, nec porta odio
-          ornare non. Donec mollis eu elit ac accumsan. Donec tincidunt mi
-          vehicula, vehicula tortor at, euismod justo. Cras luctus eros sit amet
-          aliquet cursus. Vestibulum ante ipsum primis in faucibus orci luctus
-          et ultrices posuere cubilia curae;
+        Para la construcción del motor de audio, utilizamos Python en el entorno de Spyder, empleando la biblioteca Pyo, que nos permite manipular varias señales de forma paralela y en tiempo real. En cuanto a la interfaz gráfica de usuario, fue diseñada con Qt Designer, lo que nos permitió construir visualmente la consola e incorporar de manera intuitiva todos los elementos necesarios: botones, potenciómetros (knobs), faders, menús desplegables (ComboBox), entre otros.
         </p>
         <p>
-          Quisque metus nisi, facilisis vel orci vel, feugiat venenatis quam.
-          Aliquam sit amet lorem quam. Nunc sagittis tellus vitae dolor finibus,
-          vitae vestibulum mi consequat. Curabitur consequat at eros sit amet
-          dictum. Ut eget iaculis velit, at tincidunt arcu. Nullam venenatis
-          consequat erat ac volutpat. Vivamus eget feugiat lacus, at cursus
-          purus. Maecenas eget sagittis risus, id ultricies lorem. Morbi vitae
-          nisi risus. Sed interdum eget dolor nec consequat. Proin eget urna
-          tincidunt, tincidunt tellus vitae, convallis mi. Praesent in neque
-          aliquet, semper ipsum at, eleifend sem. Sed at nibh dui. Quisque
-          maximus purus in augue dictum, vitae ullamcorper augue mollis.
-          Suspendisse potenti.
+        Esperamos que esta herramienta sea de tu agrado y que puedas sacarle el máximo provecho. La diseñamos para que aprendas de una forma diferente, interactiva y cercana a la realidad. Explora, experimenta, y entrena tu oído: descubre qué hace cada botón, fader o potenciómetro. Queremos que te acompañe tanto en tus clases de Fundamentos de Audio, como en tus espacios de práctica personal. Que te resuelva dudas, despierte tu curiosidad y, sobre todo, te ayude a aprender mucho más. Dale play al siguiente video y descubre cómo se comporta nuestro simulador en acción. 👀
         </p>
-      </div>
+        </div>
     </section>
 
     <section>
@@ -185,7 +183,7 @@
       </div>
     </section>
 
-    <footer class="bg-dark text-white pt-5 pb-4">
+    <footer class="bg-dark text-white pt-5 pb-3">
       <div class="container text-center text-md-center">
         <div class="row">
           <!-- Columna 1: Información -->
@@ -227,9 +225,6 @@
             <h5 class="text-uppercase fs-6">Contáctanos</h5>
             <ul class="list-unstyled">
               <li>
-                <small>lherrera@usbbog.edu.co</small>
-              </li>
-              <li>
                 <small>mjacevedoc@academia.usbbog.edu.co</small>
               </li>
               <li>
@@ -237,6 +232,9 @@
               </li>
               <li>
                 <small>jfordonezc@academia.usbbog.edu.co</small>
+              </li>
+              <li>
+                <small>lherrera@usbbog.edu.co</small>
               </li>
             </ul>
           </div>
