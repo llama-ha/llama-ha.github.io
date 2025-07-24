@@ -38,7 +38,7 @@
   <!-- Lo que se verá en la página web -->
   <body>
     <!-- Barra de navegacion -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ms-1">
+    <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg ps-1" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img
@@ -65,7 +65,7 @@
               <a class="nav-link" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="simulador.html">Simulador</a>
+                <a class="nav-link disabled" aria-disabled="true" href="simulador.html">Simulador</a>
             </li>
             <li class="nav-item">
               <a
@@ -102,15 +102,28 @@
 
     <!-- Carrousel de tarjetas -->
     <section>
-      <div class="container mt-5 mb-5">
-        <h4>¿Qué encontrarás acá?</h4>
-        <p>
-        Aquí es donde nuestra propuesta se diferencia de otros simuladores: te presentamos una estrategia didáctica completa que te acompañará en tu proceso de aprendizaje, desde los conceptos más básicos del sonido hasta la mezcla multicanal en vivo. Encontrarás 7 lecciones diseñadas para complementar tus clases de Fundamentos de Audio. Las lecciones disponibles estarán marcadas como <i>Acceder 👀</i>, y las demás mostrarán la fecha estimada en que se habilitarán durante el semestre. Al abrir cada lección, verás un PDF, video o presentación con las instrucciones que debes seguir. Además, al final de cada corte académico tendrás una evaluación diagnóstica. No te preocupes, esta no afecta tu nota en la asignatura. Su propósito retroalimentarte, y así, ayudarte a identificar cuánto has aprendido, en qué puedes mejorar y darte la oportunidad de reaprender en lo que fallaste.
-        </p>
-        <p>
-        Por último, encontrarás un bonus: una mirada de este proyecto aplicada a otras asignaturas. Con esto queremos que veas que las materias de la universidad no están aisladas, sino que juntas forman de manera integral al ingeniero de sonido. Esperamos que aprendas, explores y que esta experiencia despierte tu curiosidad. 🤔
-        </p>
-      </div>
+        <div class="container mt-5 mb-5">
+          <div class="row align-items-center">
+              <div class="col-12 col-md-7 pt-3 pb-3">
+                  <h4>¿Qué encontrarás acá?</h4>
+                  <p>
+                  Aquí es donde nuestra propuesta se diferencia de otros simuladores: te presentamos una estrategia didáctica completa que te acompañará en tu proceso de aprendizaje, desde los conceptos más básicos del sonido hasta la mezcla multicanal en vivo. Encontrarás 7 lecciones diseñadas para complementar tus clases de Fundamentos de Audio. Las lecciones disponibles estarán marcadas como <i>Acceder 👀</i>, y las demás mostrarán la fecha estimada en que se habilitarán durante el semestre. Al abrir cada una, verás una presentación interactiva en Genially que te guiará paso a paso en el desarrollo del tema, brindándote instrucciones claras y específicas sobre lo que debes hacer. ▶️ El video que ves acá te muestra la estructura general con la que fue construida cada lección, y te ayudará a familiarizarte con el formato y la lógica de navegación antes de comenzar.  Además, al final de cada corte académico tendrás una evaluación diagnóstica. No te preocupes, esta no afecta tu nota en la asignatura. Su propósito retroalimentarte, y así, ayudarte a identificar cuánto has aprendido, en qué puedes mejorar y darte la oportunidad de reaprender en lo que fallaste.
+                  </p>
+                  <p>
+                  Por último, encontrarás un bonus: una mirada de este proyecto aplicada a otras asignaturas. Con esto queremos que veas que las materias de la universidad no están aisladas, sino que juntas forman de manera integral al ingeniero de sonido. Esperamos que aprendas, explores y que esta experiencia despierte tu curiosidad. 🤔
+                  </p>
+              </div>
+              <div class="col-12 col-md-5 pb-3">
+                <iframe
+                  src="https://www.youtube.com/embed/qF2E2ahM6X0"
+                  title="Video de ejemplo"
+                  allowfullscreen
+                  style="width: 100%; height: 315px; border: none; border-radius: 10px;"
+                ></iframe>
+              </div>
+          </div>
+          <hr>
+        </div>
     </section>
 
     <section>
@@ -142,10 +155,10 @@
                     </p>
                     <p class="card-text text-end pe-3">
                       <a
-                        href="https://www.youtube.com/@mikeacevedo"
+                        href="https://view.genially.com/68759a75a41e17b75b214d58"
                         class="btn btn-primary"
                         role="button"
-                        target="_blank"
+                        target="_self"
                       >
                         Acceder 👀
                       </a>
@@ -179,9 +192,14 @@
                       entre volumen y ganancia.
                     </p>
                     <p class="card-text text-end pe-3">
-                      <button type="button" class="btn btn-primary disabled">
-                        📅 | Semana 3
-                      </button>
+                      <a
+                        href="https://view.genially.com/687a7782e1934311030e4f1b"
+                        class="btn btn-primary"
+                        role="button"
+                        target="_self"
+                      >
+                        Acceder 👀
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -211,9 +229,14 @@
                       Filtros, Atenuadores y Phantom Power
                     </p>
                     <p class="card-text text-end pe-3">
-                      <button type="button" class="btn btn-primary disabled">
-                        📅 | Semana 4
-                      </button>
+                      <a
+                        href="https://view.genially.com/687e923b013560e11bc873f2"
+                        class="btn btn-primary"
+                        role="button"
+                        target="_self"
+                      >
+                        Acceder 👀
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -240,9 +263,14 @@
                       <small class="text-body-secondary">Test 1</small>
                     </p>
                     <p class="card-text text-end pe-3">
-                      <button type="button" class="btn btn-primary disabled">
-                        📅 | Semana 5
-                      </button>
+                      <a
+                        href="https://view.genially.com/687e923b013560e11bc873f2"
+                        class="btn btn-primary"
+                        role="button"
+                        target="_self"
+                      >
+                        Acceder 👀
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -407,100 +435,211 @@
               </div>
             </div>
           </div>
-
-          <h5>Bonus track 💿 | Programación de Aplicada al Audio 💾</h5>
-          <div class="col-12 mb-3">
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="lecciones/paa-leccion-1-pc-server.webp"
-                    class="img-fluid rounded-start"
-                    style="filter: brightness(0.9)"
-                    alt="Onda verde en fondo blanco"
-                  />
-                </div>
-                <div class="col-md-8 d-flex align-items-center">
-                  <div class="card-body">
-                    <h5 class="card-title" style="margin-bottom: 0.1rem">
-                      El servidor de audio
-                    </h5>
-                    <p class="card-text">
-                      <small class="text-body-secondary">Lección 3.1.</small>
-                    </p>
-                    <p class="card-text">Introducción a Pyo.</p>
-                    <p class="card-text text-end pe-3">
-                      <button type="button" class="btn btn-primary disabled">
-                        🔧 En proceso
-                      </button>
-                    </p>
-                  </div>
+        <hr>
+        </br>
+        </br>
+        </br>
+        <h5>Bonus track-A 💿 | Lenguajes de Programación 👾</h5>
+        <div class="col-12 mb-3">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="home/repairing.webp"
+                  class="img-fluid rounded-start"
+                  style="filter: brightness(0.9)"
+                  alt="Onda verde en fondo blanco"
+                />
+              </div>
+              <div class="col-md-8 d-flex align-items-center">
+                <div class="card-body">
+                  <h5 class="card-title" style="margin-bottom: 0.1rem">
+                    -------
+                  </h5>
+                  <p class="card-text">
+                    <small class="text-body-secondary">Lección A.1.</small>
+                  </p>
+                  <p class="card-text">---</p>
+                  <p class="card-text text-end pe-3">
+                    <a
+                      href="https://colab.research.google.com/drive/1gDTlr95inqc7dLNUz3hPHNo1De281WSg?usp=sharing"
+                      class="btn btn-primary"
+                      role="button"
+                      target="_self"
+                    >
+                      Acceder 👀
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-12 mb-3">
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="lecciones/paa-leccion-2-signal-processing.webp"
-                    class="img-fluid rounded-start"
-                    style="filter: brightness(1)"
-                    alt="Onda verde en fondo blanco"
-                  />
-                </div>
-                <div class="col-md-8 d-flex align-items-center">
-                  <div class="card-body">
-                    <h5 class="card-title" style="margin-bottom: 0.1rem">
-                      Procesamiento de una señal
-                    </h5>
-                    <p class="card-text">
-                      <small class="text-body-secondary">Lección 3.2.</small>
-                    </p>
-                    <p class="card-text">Diferentes procesos para una señal.</p>
-                    <p class="card-text text-end pe-3">
-                      <button type="button" class="btn btn-primary disabled">
-                        🔧 En proceso
-                      </button>
-                    </p>
-                  </div>
+        </div>
+        <div class="col-12 mb-3">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="home/repairing.webp"
+                  class="img-fluid rounded-start"
+                  style="filter: brightness(1)"
+                  alt="Onda verde en fondo blanco"
+                />
+              </div>
+              <div class="col-md-8 d-flex align-items-center">
+                <div class="card-body">
+                  <h5 class="card-title" style="margin-bottom: 0.1rem">
+                    -------
+                  </h5>
+                  <p class="card-text">
+                    <small class="text-body-secondary">Lección A.2.</small>
+                  </p>
+                  <p class="card-text">---</p>
+                  <p class="card-text text-end pe-3">
+                    <button type="button" class="btn btn-primary disabled">
+                      🔧 En proceso
+                    </button>
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-12 mb-3">
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img
-                    src="lecciones/paa-leccion-3-flujo-senal.webp"
-                    class="img-fluid rounded-start"
-                    style="filter: brightness(1)"
-                    alt="Onda verde en fondo blanco"
-                  />
-                </div>
-                <div class="col-md-8 d-flex align-items-center">
-                  <div class="card-body">
-                    <h5 class="card-title" style="margin-bottom: 0.1rem">
-                      Flujo de señal
-                    </h5>
-                    <p class="card-text">
-                      <small class="text-body-secondary">Lección 3.3.</small>
-                    </p>
-                    <p class="card-text">
-                      Procesamiento de señal en serie o cascada.
-                    </p>
-                    <p class="card-text text-end pe-3">
-                      <button type="button" class="btn btn-primary disabled">
-                        🔧 En proceso
-                      </button>
-                    </p>
-                  </div>
+        </div>
+        <div class="col-12 mb-5">
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="home/repairing.webp"
+                  class="img-fluid rounded-start"
+                  style="filter: brightness(1)"
+                  alt="Onda verde en fondo blanco"
+                />
+              </div>
+              <div class="col-md-8 d-flex align-items-center">
+                <div class="card-body">
+                  <h5 class="card-title" style="margin-bottom: 0.1rem">
+                    -------
+                  </h5>
+                  <p class="card-text">
+                    <small class="text-body-secondary">Lección A.3.</small>
+                  </p>
+                  <p class="card-text">
+                    ---
+                  </p>
+                  <p class="card-text text-end pe-3">
+                    <button type="button" class="btn btn-primary disabled">
+                      🔧 En proceso
+                    </button>
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      <hr>
+      </br>
+      </br>
+      </br>
+      
+      <h5>Bonus track-B 💿 | Programación de Aplicada al Audio 🔊</h5>
+      <div class="col-12 mb-3">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="lecciones/paa-leccion-1-pc-server.webp"
+                class="img-fluid rounded-start"
+                style="filter: brightness(0.9)"
+                alt="Onda verde en fondo blanco"
+              />
+            </div>
+            <div class="col-md-8 d-flex align-items-center">
+              <div class="card-body">
+                <h5 class="card-title" style="margin-bottom: 0.1rem">
+                  El servidor de audio
+                </h5>
+                <p class="card-text">
+                  <small class="text-body-secondary">Lección B.1.</small>
+                </p>
+                <p class="card-text">Introducción a Pyo.</p>
+                <p class="card-text text-end pe-3">
+                  <a
+                    href="https://colab.research.google.com/drive/1NRhRVUju3z_DXpNWq5MESqHnIZdGbcMc?usp=sharing"
+                    class="btn btn-primary"
+                    role="button"
+                    target="_self"
+                  >
+                    Acceder 👀
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mb-3">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="lecciones/paa-leccion-2-signal-processing.webp"
+                class="img-fluid rounded-start"
+                style="filter: brightness(1)"
+                alt="Onda verde en fondo blanco"
+              />
+            </div>
+            <div class="col-md-8 d-flex align-items-center">
+              <div class="card-body">
+                <h5 class="card-title" style="margin-bottom: 0.1rem">
+                  Procesamiento de una señal
+                </h5>
+                <p class="card-text">
+                  <small class="text-body-secondary">Lección B.2.</small>
+                </p>
+                <p class="card-text">Diferentes procesos para una señal.</p>
+                <p class="card-text text-end pe-3">
+                  <button type="button" class="btn btn-primary disabled">
+                    🔧 En proceso
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mb-4">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="lecciones/paa-leccion-3-flujo-senal.webp"
+                class="img-fluid rounded-start"
+                style="filter: brightness(1)"
+                alt="Onda verde en fondo blanco"
+              />
+            </div>
+            <div class="col-md-8 d-flex align-items-center">
+              <div class="card-body">
+                <h5 class="card-title" style="margin-bottom: 0.1rem">
+                  Flujo de señal
+                </h5>
+                <p class="card-text">
+                  <small class="text-body-secondary">Lección B.3.</small>
+                </p>
+                <p class="card-text">
+                  Procesamiento de señal en serie o cascada.
+                </p>
+                <p class="card-text text-end pe-3">
+                  <button type="button" class="btn btn-primary disabled">
+                    🔧 En proceso
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
         </div>
       </div>
     </section>
