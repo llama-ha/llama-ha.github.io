@@ -10,12 +10,16 @@ h1,h2,h3,h4,h5{
   font-family: "Fjalla One", sans-serif;
 }
 
+p{
+    text-align: justify;
+}
+
 .ms-auto-important {
   margin-left: auto !important;
 }
 
 .cover{
-  height:770px; 
+  height:770px;
   /* Imagen y se redimensiona al tamaño de la pantalla */
   background-image:url(home/portada-consola.webp);
   background-size: cover;
@@ -48,7 +52,7 @@ h1,h2,h3,h4,h5{
 
 
 .cover-small{
-  height:200px; 
+  height:200px;
   background-size: cover;
   background-position:center;
   background-image:url(https://cdn.glitch.global/0ca6412d-4efb-42e0-be1d-bcdba60a67fc/rsz_alexey-ruban-73o_fzz5x-w-unsplash.jpg?v=1749233804653);
@@ -58,7 +62,7 @@ h1,h2,h3,h4,h5{
 
 .card {
   border: 0 !important;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
               0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
@@ -85,7 +89,7 @@ h1,h2,h3,h4,h5{
 
 /*
 .card-title {
-  margin-bottom: 0.1rem; /* más pegado al siguiente texto 
+  margin-bottom: 0.1rem; /* más pegado al siguiente texto
 }
 */
 
@@ -193,7 +197,7 @@ h1,h2,h3,h4,h5{
   37.5%   { transform: translateX(-300%); }
   47.5%   { transform: translateX(-300%); }
   50%   { transform: translateX(-400%);}
-  60% { transform: translateX(-400%); } 
+  60% { transform: translateX(-400%); }
   62.5% { transform: translateX(-500%); }
   72.5% { transform: translateX(-500%); }
   75% { transform: translateX(-600%); }
@@ -227,7 +231,7 @@ h1,h2,h3,h4,h5{
   
   .stripe-container{
   display:flex;
-  animation: scroll-small 20s linear infinite;
+  animation: scroll-small 30s linear infinite;
 }
     #imagen-principal-simulador {
     width: 100%;
@@ -239,14 +243,14 @@ h1,h2,h3,h4,h5{
   0%   { transform: translateX(0); }
   17.5%   { transform: translateX(0); }
   20%   { transform: translateX(-100%); }
-  37.5% { transform: translateX(-100%); } 
-  40% { transform: translateX(-200%); } 
-  57.5% { transform: translateX(-200%); } 
-  60% { transform: translateX(-300%); } 
-  77.5% { transform: translateX(-300%); } 
-  80% { transform: translateX(-400%); } 
-  97.5% { transform: translateX(-400%); } 
-  100% { transform: translateX(-500%); } 
+  37.5% { transform: translateX(-100%); }
+  40% { transform: translateX(-200%); }
+  57.5% { transform: translateX(-200%); }
+  60% { transform: translateX(-300%); }
+  77.5% { transform: translateX(-300%); }
+  80% { transform: translateX(-400%); }
+  97.5% { transform: translateX(-400%); }
+  100% { transform: translateX(-500%); }
 }
 
 
