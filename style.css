@@ -140,8 +140,12 @@ p{
 
 /* Style the back side */
 .flip-card-back p {
-    font-size: 11px;  /* Cambia el número a lo que quieras */
+    font-size: clamp(8px, 0.8vw, 12px);
     text-align: center; /* Centrado horizontal */
+}
+/* Style the back side */
+.flip-card-back h5 {
+    font-size: clamp(15px, 1vw, 30px);
 }
 
 
@@ -288,17 +292,7 @@ p{
 
 
 /* Pantallas medianas (tablets: 769px–1024px): 3 tarjetas */
-@media (min-width: 1200px) {
-
-  .stripe-container .card {
-      width:23.5%;
-      margin-right:0.75%;
-      margin-left:0.75%
-  }
-}
-
-
-@media (min-width: 769px) and (max-width: 1199px) {
+@media (max-width: 1024px) {
   .stripe-container {
     animation: scroll-medium 15s linear infinite;
   }
