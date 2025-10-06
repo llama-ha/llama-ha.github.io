@@ -140,7 +140,7 @@ p{
 
 /* Style the back side */
 .flip-card-back p {
-    font-size: 12.5px;  /* Cambia el número a lo que quieras */
+    font-size: 11px;  /* Cambia el número a lo que quieras */
     text-align: center; /* Centrado horizontal */
 }
 
